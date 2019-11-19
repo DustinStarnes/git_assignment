@@ -1,0 +1,27 @@
+nav {
+  width: 80%;
+  height: 92px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .lonks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+    }
+
+    span {
+      margin: 0px 15px;
+      color: blue;
+      font-size: 24px;
+    }
+  }
+}
