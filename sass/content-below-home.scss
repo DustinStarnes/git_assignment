@@ -1,0 +1,13 @@
+.content-holder {
+  max-width: 1280px;
+  max-height: 500px;
+  margin: 0 auto;
+  box-sizing: content-box;
+
+  .text {
+    margin: 50px 30px 50px 30px;
+    column-count: 3;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+}

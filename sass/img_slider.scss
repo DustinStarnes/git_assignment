@@ -1,0 +1,45 @@
+.img-slider-holder {
+  max-width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .img-box {
+    height: $img-box-size;
+    width: $img-box-size;
+    border-radius: 15px;
+  }
+
+  .one {
+    background-image: url(../img/jag.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .two {
+    background-image: url(../img/manatee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .three {
+    background-image: url(../img/pbear.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .four {
+    background-image: url(../img/turtle.jpg_fit=scale);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .five {
+    background-image: url(../img/idk.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
