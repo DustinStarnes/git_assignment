@@ -1,0 +1,33 @@
+.stats {
+max-width: 1280px;
+height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-holder{
+    height: $img-box-size;
+    width: $img-box-size;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.stats h3{
+    font-size: 50px;
+}
+
+.stat-one{
+    margin-right: 10px;
+}
+.stat-two {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.text2{
+    font-size: 18px;
+    line-height: 1.9;
+}
