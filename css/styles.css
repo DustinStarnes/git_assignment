@@ -264,4 +264,31 @@ nav {
   background: #0f5194; }
 
 .turtle {
-  margin-left: 50px; }
+  margin-left: 60px; }
+
+.footer {
+  width: 80%;
+  height: 92px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .footer .site-name span {
+    font-size: 24px; }
+
+.line {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none; }
